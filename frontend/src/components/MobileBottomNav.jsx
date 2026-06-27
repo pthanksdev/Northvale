@@ -66,7 +66,7 @@ export function MobileBottomNav() {
               <span className="relative">
                 <Icon className="size-5" aria-hidden />
                 {item.showBadge && cartCount > 0 && (
-                  <span className="absolute -right-2 -top-1.5 flex h-4 min-w-4 items-center justify-center rounded-full bg-primary px-1 text-[10px] font-bold text-primary-content">
+                  <span className="absolute -right-2 -top-1.5 flex h-4 min-w-4 items-center justify-center rounded-full bg-primary px-1 text-xs font-bold text-primary-content">
                     {cartCount > 99 ? "99+" : cartCount}
                   </span>
                 )}

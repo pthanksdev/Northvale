@@ -138,7 +138,7 @@ export function OrderVideoSkeleton() {
   return (
     <div className="space-y-4">
       <div className="skeleton h-10 w-40" />
-      <div className="skeleton min-h-[50vh] w-full rounded-box" />
+      <div className="skeleton min-h-96 w-full rounded-box" />
     </div>
   );
 }
@@ -156,7 +156,7 @@ export function OrderChatPanelSkeleton() {
           </div>
         </div>
       </div>
-      <div className="flex h-[560px] flex-col overflow-hidden rounded-box border border-base-300 bg-base-100">
+      <div className="flex h-[35rem] flex-col overflow-hidden rounded-box border border-base-300 bg-base-100">
         <div className="border-b border-base-300 p-4">
           <div className="skeleton h-8 w-56" />
         </div>
