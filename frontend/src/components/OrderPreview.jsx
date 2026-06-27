@@ -2,8 +2,8 @@ import { PackageIcon } from "lucide-react";
 import { getCloudinaryUrl } from "../lib/cloudinaryUrl.js";
 
 const SIZES = {
-  md: "h-[5.5rem] w-[5.5rem]",
-  lg: "h-32 w-32 sm:h-36 sm:w-36",
+  md: "size-24",
+  lg: "size-32 sm:size-36",
 };
 
 export function OrderPreview({ items, size = "md" }) {
