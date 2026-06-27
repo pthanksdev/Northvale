@@ -47,7 +47,7 @@ function ForgotPasswordPage() {
   }
 
   return (
-    <div className="flex min-h-[60vh] flex-col items-center justify-center py-12 sm:px-6 lg:px-8">
+    <div className="flex flex-col items-center justify-center py-24 sm:px-6 lg:px-8 lg:py-32">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
           <KeyRoundIcon className="h-6 w-6 text-primary" aria-hidden="true" />
